@@ -24,13 +24,13 @@ def toonify(path_of_image):
     # print(original_image) image is stored in form of numbers
 
 
-#     if original_image is None:
-#         print("Can not find the image please, Choose the appropriate file")
-#         sys.exit()
+    if original_image is None:
+        print("Can not find the image please, Choose the appropriate file")
+        sys.exit()
 
-#     resize_image1 = cv2.resize(original_image, (960, 540))
-#     plt.show(resize_image1, cmap="gray")
+    resize_image1 = cv2.resize(original_image, (960, 540))
+    plt.show(resize_image1, cmap="gray")
 
-#     grayScaleImage = cv2.cvtColor(original_image, cv2.COLOR_BGR2GRAY)
-#     resize_image2 = cv2.resize(original_image, (960, 540))
-#     plt.show(resize_image2, cmap="gray")
+    grayScaleImage = cv2.cvtColor(original_image, cv2.COLOR_BGR2GRAY)
+    resize_image2 = cv2.resize(original_image, (960, 540))
+    plt.show(resize_image2, cmap="gray")
