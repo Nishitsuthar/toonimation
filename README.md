@@ -7,7 +7,7 @@ With Toonimation you can convert simple image into animated form
 Simply make a clone of this repo into your machine and execute the script to run the app
 
 ```bash
-git clone Nishitsuthar/toonimation
+git clone https://github.com/Nishitsuthar/toonimation.git
 
 cd toonimation
 
